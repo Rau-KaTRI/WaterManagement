@@ -1,4 +1,23 @@
-Steep agricultural lands such as terrace rice fields are significantly involved in the management of surface runoff and flood control in rural areas. Since terrace rice fields are usually located in steep-slope terrains with complex microtopography, precise terrain data are essential to accurately represent hydrological characteristics in flood analysis. It is especially important to acquire dimensions of water channels developed within steep agricultural lands as channel flows significantly contribute to surface flood runoff from the slopes. However, it takes a lot of time-consuming works in the field to collect dimension data of channels distributed on the slopes, which is a constraint on development of a realistic physical-based model for flood analysis for steep agricultural lands through a wide area.
-In order to develop a method to efficiently estimate channel dimensions in steep agricultural lands, this study introduced advanced remote sensing-based digital terrain models (RS-DTMs), which can be created for a wide area at once without conducting time-consuming field surveys. Though RS-DTMs had been successfully applied in lowland regions for flood modeling (Rau et al., 2024), their applicability to obtaining representation of channels in narrow and steeply sloped agricultural lands have not yet been investigated. Comparative analysis on channel detection was performed using RS-DTM, light detection and ranging (LiDAR) of the Japan Geospatial Information Authority (GSI), and high-precision unmanned aircraft vehicle (UAV) based LiDAR, which was employed as a reference for obtaining fine-scale topographic features required for hydrological modeling, in order to assess the potential of RS-DTM to reproduce channel cross-sectional profiles. 
-Digital Terrain Models (DTMs) or Digital Elevation Models (DEMs) have long been fundamental datasets in flood modeling studies. While open-source DEMs, such as SRTM, ASTER GDEM, and ALOS PALSAR, are widely used, their lower resolutions often limit the precision required for detailed flood analysis. High-resolution DTMs/DEMs, although more accurate, are often challenging to acquire due to the cost and complexity of methods such as LiDAR and terrestrial surveys. One promising alternative involves the use of remote-sensing techniques for the development of high-resolution DTMs (Julzarika, 2021). Though remote-sensing techniques have been a successful application in lowland regions for flood modeling, as studied by Rau et al. (2024), the application on steep slope regions remains unexplored.
-In steep-slope terrains, small channels and the cross-sectional profiles are relevant for reliable flood modeling. In hydrologic models, such as Rainfall-Runoff-Inundation (RRI), channel geometry is often simplified using regime theory-based power relationships between width, depth, and watershed area (Tsunefuji et al., 2017). These simplifications might underestimate the sensitivity of flood models to variations in channel depth, slope, and configuration, which are significant drivers of runoff delay and inundation dynamics. Remote-sensing-based DTMs (RS-DTMs) offer the potential to enhance the reproducibility of channel cross-sectional profiles, which are relevant to the modeling of channelized flows in terraced rice paddy fields with their numerous small channels for distributing water.  Accurate geometries enable a more accurate prediction of where local flooding and resulting damage due to the overtopping of small channels may occur. This study aims to evaluate the reliability of RS-DTMs in representing small channels in steep-slope terrains by comparing RS-DTM with UAV-LiDAR-surveyed topography data and assessing their influence on channel geometry reproducibility and hydrological features accuracy.
+Flooding is a global phenomenon that causes casualties and
+property loss on every inhabited continent. It is probably the most
+devastating, widespread and frequent natural disaster for human
+societies. On the other hand, the impact of flooding is not always
+negative as it is a part of a natural cycle and can have great environmental and social benefits, particularly in areas which have
+suffered from prolonged drought. Periodic scouring floods are even
+crucial for ecosystems in most riverine and coastal wetlands.
+Throughout human history, there has been a constant
+endeavour to understand, assess and predict flood events and their
+impact. Flood inundation models are therefore developed to serve
+this purpose. As flooding accounts for a significant proportion of
+the total number of reported natural disasters occurring in the
+world, and over the last 30 years this proportion has been
+increasing (Freer et al., 2011), the development and application of
+flood inundation models and relevant research have become a
+global endeavour.
+Systematic efforts within the research community since the
+1970s have greatly improved the capability of flood inundation
+modelling. The models are widely used in flood risk mapping (Apel
+et al., 2006; Dutta et al., 2006), flood damage assessment (Merz et al., 2010), real-time flood forecasting
+(Arduino et al., 2005),floodplain ecology (Karim
+et al., 2015), river system hydrology (Dutta et al., 2013) and
+catchment hydrology (Abbott et al., 1986; Beven, 1989)
