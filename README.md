@@ -1,4 +1,12 @@
-¬¬ADVANCING FLOOD MODELLING IN STEEP SLOPE REGIONS USING HIGH-RESOLUTION DTMS DERIVED FROM SATELLITE IMAGERY
+link to the application: 
+[Respiratory Disease App](https://gallery.shinyapps.io/respiratory_disease_pyshiny/?_gl=1*odypar*_ga*MTU4ODcxNzM4NC4xNzU0MzgxOTMz*_ga_2C0WZ1JHG0*czE3NTQzODE5MzMkbzEkZzAkdDE3NTQzODE5MzMkajYwJGwwJGgw)
+ 
+ link to its github repository: 
+[shiny-gallery/respiratory_disease_pyshiny at master · rstudio/shiny-gallery
+Respiratory Disease PyShiny](https://github.com/rstudio/shiny-gallery/tree/master/respiratory_disease_pyshiny)
+ 
+ 
+ ¬¬ADVANCING FLOOD MODELLING IN STEEP SLOPE REGIONS USING HIGH-RESOLUTION DTMS DERIVED FROM SATELLITE IMAGERY
 Maulana Ibrahim RAU1, Natsu MIURA2, Daisuke NOHARA3, Atriyon JULZARIKA4, Tsuyoshi YAMAGUCHI5, Yoriyuki YAMADA6, Natsuki YOSHIKAWA7
 1,2,3,5,6 Sustainable Society Laboratory, Kajima Technical Research Institute, Japan
 email: rau@kajima.com
